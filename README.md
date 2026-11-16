@@ -10,6 +10,11 @@ Predicts sepsis in ICU patients up to **6 hours before** clinical diagnosis from
 Includes data cleaning, EDA, 8 models (5 original + 3 tuned advanced, XGBoost / LightGBM optional), automatic best-model selection, and a **Streamlit** web app.
 
 ---
+## Live Demo 
+
+**Streamlit app (deployed by Muhammad Usman):**   [Open the live app](https://sepsis-icu-early-prediction.streamlit.app/)
+
+---
 
 ## 👥 Team and Roles
 
