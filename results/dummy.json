@@ -1,0 +1,38 @@
+{
+  "model": "dummy",
+  "val": {
+    "roc_auc": 0.5,
+    "pr_auc": 0.02166919350663758,
+    "threshold": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "specificity": 1.0,
+    "f1": 0.0,
+    "f2": 0.0,
+    "balanced_accuracy": 0.5,
+    "tn": 79371,
+    "fp": 0,
+    "fn": 1758,
+    "tp": 0
+  },
+  "test": {
+    "roc_auc": 0.5,
+    "pr_auc": 0.02017527503263099,
+    "threshold": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "specificity": 1.0,
+    "f1": 0.0,
+    "f2": 0.0,
+    "balanced_accuracy": 0.5,
+    "tn": 78822,
+    "fp": 0,
+    "fn": 1623,
+    "tp": 0
+  },
+  "info": {
+    "params": {
+      "strategy": "prior"
+    }
+  }
+}

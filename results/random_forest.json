@@ -1,0 +1,56 @@
+{
+  "model": "random_forest",
+  "val": {
+    "roc_auc": 0.765124279407937,
+    "pr_auc": 0.10162686391112934,
+    "threshold": 0.6070785274379894,
+    "precision": 0.14344460570875664,
+    "recall": 0.3373151308304892,
+    "specificity": 0.95538672815008,
+    "f1": 0.2012898845892736,
+    "f2": 0.26553824108902024,
+    "balanced_accuracy": 0.6463509294902846,
+    "tn": 75830,
+    "fp": 3541,
+    "fn": 1165,
+    "tp": 593
+  },
+  "test": {
+    "roc_auc": 0.7829676419972948,
+    "pr_auc": 0.10242544580441108,
+    "threshold": 0.6070785274379894,
+    "precision": 0.14178765880217786,
+    "recall": 0.3850893407270487,
+    "specificity": 0.9520057851868767,
+    "f1": 0.2072624772011275,
+    "f2": 0.286697247706422,
+    "balanced_accuracy": 0.6685475629569627,
+    "tn": 75039,
+    "fp": 3783,
+    "fn": 998,
+    "tp": 625
+  },
+  "info": {
+    "params": {
+      "n_estimators": 80,
+      "max_depth": 8,
+      "min_samples_leaf": 50
+    },
+    "tuning": [
+      {
+        "n_estimators": 80,
+        "max_depth": 8,
+        "min_samples_leaf": 50,
+        "val_pr_auc": 0.1016,
+        "seconds": 13.0
+      },
+      {
+        "n_estimators": 80,
+        "max_depth": 12,
+        "min_samples_leaf": 30,
+        "val_pr_auc": 0.0955,
+        "seconds": 16.9
+      }
+    ]
+  }
+}
